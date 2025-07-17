@@ -20,7 +20,7 @@ Programs exploring dynamic memory and memory safety:
 - `undefined.c`: Demonstrates effects of uninitialized memory.
 
 ### `vector/`
-Custom dynamic array (vector) implementation in C.
+Custom dynamic array (vector) implementation in C:
   - `vector.c`, `vector.h`: Core vector logic.
   - `main.c`: Sample usage.
 
@@ -29,16 +29,15 @@ Custom dynamic array (vector) implementation in C.
 - Deepen understanding of OS-level primitives (processes, memory, I/O)
 - Practice writing safe, low-level C code
 - Benchmark and reason about system performance
-- Get hands-on experience with undefined behavior and its implications
 
 ## Future plans
 
-- Add `Makefile`s for streamlined compilation in each directory
+- Add `Makefile`s for easier compilation in each directory
 - Write signal handling tests (`sigaction`, `kill`, `alarm`)
 - Build simple `malloc`/`free` allocator to understand heap internals
-- Add threading examples with `pthreads`
+- Experimeent with multithreading using `pthreads`
 - Include TCP/UDP socket communication demos
-- Use tools like `valgrind`, `gprof`, and `perf` for profiling
+- Use CLI tools like `valgrind`, `gprof`, and `perf` for performance optimization and debugging
 
 ## How to run
 
